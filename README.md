@@ -241,9 +241,9 @@ Now let's take advantage of this association by running some queries that utiliz
 Let's SELECT from our join table all of the owners who are associated to cat number 3. 
 
 ```sql
- SELECT cats_owners.owner_id 
- FROM cats_owners 
- WHERE cat_id = 3;
+SELECT cats_owners.owner_id 
+FROM cats_owners 
+WHERE cat_id = 3;
 ```
 
 This should return:
